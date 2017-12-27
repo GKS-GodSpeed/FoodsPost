@@ -25,7 +25,15 @@
   text-align: center;
 }
 
-.jumbotron h1,h2 {
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.jumbotron h2 {
   color: #fff;
   text-align: center;
   margin-bottom: 30px;
@@ -45,9 +53,16 @@
 
 footer {
   margin-top: 45px;
-  paddind-top: 5px;
-  border-top: 1px solid red;
-  color: #073B15;
+  padding-top: 5px;
+  border-top: 1px solid #073B15;
+  color: #777;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+footer a {
+  color: #555;
 }
 
 footer a:hover {
@@ -61,7 +76,6 @@ footer small {
 footer ul {
   float: right;
   list-style: none;
-  padding: 3px;
 }
 
 footer ul li {
