@@ -1,6 +1,12 @@
 @import "bootstrap";
 
 
+.jumbotron {
+  background-image: asset-url('myrecipes.jpg');
+  background-size: cover;
+  height: 300px;
+}
+
 #logo {
   float: left;
   font-size: 1.7em;
@@ -17,4 +23,48 @@
 
 .center {
   text-align: center;
+}
+
+.jumbotron h1,h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  background-color: #073B15;
+}
+
+.btn-xlarge:hover {
+  background-color: #fff;
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  margin-top: 45px;
+  paddind-top: 5px;
+  border-top: 1px solid red;
+  color: #073B15;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+  padding: 3px;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
 }
